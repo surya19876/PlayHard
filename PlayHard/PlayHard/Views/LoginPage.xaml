@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlayHard.Views.LoginPage"
+             BackgroundColor="Black"
+             >
+
+    <ContentPage.Content>
+        <Grid x:Name="grdMain" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" RowSpacing="0">
+            <Image Source="login_background1.jpg" Aspect="AspectFill" IsVisible="True" Opacity="0.75" />
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Grid x:Name="grdContainer" Grid.Row="0" RowSpacing="10">
+                <StackLayout Padding="40" VerticalOptions="Center">
+                    <Entry Placeholder="Username" PlaceholderColor="White" TextColor="White"></Entry>
+                    <Entry Placeholder="Password" IsPassword="True" PlaceholderColor="White" TextColor="White"></Entry>
+                    <Button Margin="0,20,10,0" BackgroundColor="Green" Text="Login" HorizontalOptions="Center" Clicked="Button_OnClicked" TextColor="White"></Button>
+                </StackLayout>
+
+
+
+                
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+
+</ContentPage>
