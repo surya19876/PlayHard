@@ -30,11 +30,11 @@ namespace PlayHard.Views.Games
             {
                 MenuItems = new ObservableCollection<MasterHomeMenuItem>(new[]
                 {
-                    new MasterHomeMenuItem { Id = 0, Title = "Page 1" },
-                    new MasterHomeMenuItem { Id = 1, Title = "Page 2" },
-                    new MasterHomeMenuItem { Id = 2, Title = "Page 3" },
-                    new MasterHomeMenuItem { Id = 3, Title = "Page 4" },
-                    new MasterHomeMenuItem { Id = 4, Title = "Page 5" },
+                    new MasterHomeMenuItem { Id = 0, Title = "New Invite"},
+                    new MasterHomeMenuItem { Id = 1, Title = "My Scores" },
+                    new MasterHomeMenuItem { Id = 2, Title = "My Invites" }
+                    //new MasterHomeMenuItem { Id = 3, Title = "Page 4" },
+                    //new MasterHomeMenuItem { Id = 4, Title = "Page 5" },
                 });
             }
 
