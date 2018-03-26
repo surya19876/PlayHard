@@ -6,7 +6,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
-
+using PlayHard.Views.Games.Select_Game;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -30,7 +30,7 @@ namespace PlayHard.Views.Games
             {
                 MenuItems = new ObservableCollection<MasterHomeMenuItem>(new[]
                 {
-                    new MasterHomeMenuItem { Id = 0, Title = "New Invite"},
+                    new MasterHomeMenuItem { Id = 0, Title = "New Invite", TargetType = typeof(SelectGame)},
                     new MasterHomeMenuItem { Id = 1, Title = "My Scores" },
                     new MasterHomeMenuItem { Id = 2, Title = "My Invites" }
                     //new MasterHomeMenuItem { Id = 3, Title = "Page 4" },
